@@ -7,10 +7,10 @@
 **D3lta** is a high-fidelity IoT terminal designed for real-time market volatility monitoring and capital preservation. By moving financial inference from the cloud to the **Edge**, D3lta identifies market anomalies in a **3-minute heartbeat**, allowing for a localized "Veto" on asset allocation via a physical Human-in-the-Loop (HITL) interface and a graphical command center.
 ## Repository Structure
 This repository is a collaborative effort between the hardware and data engineering domains:
-* **/firmware**: C++ source code for the ESP32-WROOM and µLCD-144-G2 interface.
-* **/data**: Time-series datasets (BTC/XAU) with engineered Z-score features.
-* **/scripts**: Python implementation of the quantitative data pipeline and EMA filtering.
-* **/model**: Exported TensorFlow Lite / Edge Impulse TinyML model files.
+* **/firmware**: C++ source code for the ESP32-WROOM and µLCD-144-G2 interface. (In Progress)
+* **/data**: Time-series datasets (BTC/XAU) with engineered Z-score features. 
+* **/scripts**: Python implementation of the quantitative data pipeline and EMA filtering. 
+* **/model**: Exported TensorFlow Lite / Edge Impulse TinyML model files.(In Progress) 
 ## System Architecture
 The project utilizes a multi-stage pipeline bridging low-latency embedded firmware with high-level cloud business intelligence.
 
